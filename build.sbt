@@ -6,7 +6,7 @@ scalaVersion := "2.12.8"
 
 
 lazy val akkaVersion = "2.5.21"
-lazy val protobufVersion = "3.6.1"
+lazy val protobufVersion = "3.10.0"
 
 libraryDependencies ++= Seq(
 
@@ -27,7 +27,7 @@ libraryDependencies ++= Seq(
 
   "com.github.romix.akka" %% "akka-kryo-serialization" % "0.5.1",
   "com.sksamuel.avro4s" %% "avro4s-core" % "2.0.4",
-  "com.google.protobuf" % "protobuf-java" % "3.6.1",
+  "com.google.protobuf" % "protobuf-java" % "3.10.0",
   "io.spray" %%  "spray-json" % "1.3.5",
 
   ///////////////////////////////////////////////////
@@ -38,7 +38,7 @@ libraryDependencies ++= Seq(
   "org.iq80.leveldb" % "leveldb" % "0.7",
   "org.fusesource.leveldbjni" % "leveldbjni-all" % "1.8",
 
-  // JDBC with PostgreSQL 
+  // JDBC with PostgreSQL
   "org.postgresql" % "postgresql" % "42.2.2",
   "com.github.dnvriend" %% "akka-persistence-jdbc" % "3.4.0",
 
